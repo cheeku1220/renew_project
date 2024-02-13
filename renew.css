@@ -1,0 +1,167 @@
+#cross,#cross2{
+    margin-left: 450px;
+    font-size: 25px;
+}
+#hid,#hidi{
+    text-align: center;
+    padding: 25px;
+}
+#login{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin:150px 100px 150px 450px;
+    display: none;
+    width:500px;
+    height:500px;
+    position: fixed;
+    /* z-index: 1; */
+    top:0;
+    background:linear-gradient(hsl(180, 43%, 62%), hwb(195 89% 9%) 50%, #eee 75%, #000000 75%);
+}
+#signup{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin:150px 100px 150px 450px;
+    display: none;
+    width:500px;
+    height:500px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    background:linear-gradient(hsl(180, 43%, 62%), hwb(195 89% 9%) 50%, #eee 75%, #000000 75%);
+}
+#ip1,#ip2{
+    margin-top:40px;
+}
+#ip3,#ip4,#ip5{
+    margin-top: 10px;
+}
+.close:hover,.close2:hover {
+    color:red;
+    /* text-decoration: none; */
+    cursor: pointer;
+}
+#tit{
+    margin-top: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#log{
+    margin-right:2px;
+}
+#ip1 label,#ip2 label{
+    text-align: left;
+}
+.two{
+    height:1800px;
+    /* background-color:aliceblue; */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.row{
+    height:500px;
+    border:2px solid darkgrey;
+    background-color:azure;
+}
+img{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    transition:all 1s;
+}
+.row div img:hover{
+    transform:translate(30px,-30px);
+    box-shadow:0.3em 0.3em 1em hsla(0, 0%, 13%, 0.6);
+}
+
+.row:nth-of-type(1){
+    border-top: 0;
+    background-image: url("/Users/sharma/Screenshot 2024-02-11 at 11.06.13 AM.png");
+    background-size:450px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+.row:nth-of-type(1) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.row:nth-of-type(1) img{
+    margin-top: 150px;
+    margin-left: 650px;
+}
+
+.row:nth-of-type(2){
+    background-image: url("/Users/sharma/Screenshot 2024-02-11 at 11.13.21 AM.png");
+    background-size:490px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.row:nth-of-type(2) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.row:nth-of-type(2) img{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.row:nth-of-type(3){
+    background-image: url("https://img.freepik.com/premium-vector/bearded-adult-man-taking-selfie-cartoon-illustration-male-person-having-video-call-ready-use-character-template-commercial-animation-printing-comic-hero_151150-2298.jpg");
+    background-size:450px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+.row:nth-of-type(3) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.row:nth-of-type(3) img{
+    margin-top: 150px;
+    margin-left: 650px;
+}
+.row:nth-of-type(4){
+    border-bottom: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/347/249/original/verification-success-illustration-flat-design-vector.jpg");
+    background-size:450px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.row:nth-of-type(4) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.row:nth-of-type(4) img{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#fot{
+    height:500px;
+    border:2px solid aliceblue;
+    background:linear-gradient(0.5turn, hsl(198, 55%, 79%), hsl(189, 42%, 59%), hsl(178, 72%, 43%));
+}
+.col-3{
+    width:300px;
+    margin-left: 50px;
+}
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    list-style-type: none;
+}
+li a{
+    color:indigo;
+    text-decoration: none;
+}
+li a:hover{
+    color:black;
+    text-decoration: 2px solid underline cornflowerblue;
+}
