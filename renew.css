@@ -96,8 +96,8 @@ img{
 }
 
 .row:nth-of-type(2){
-    background-image: url("secImg.png");
-/*     background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/1e647cf1-9c2d-438e-82b1-4fffe419cd91"); */
+/*     background-image: url("secImg.png"); */
+    background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/1e647cf1-9c2d-438e-82b1-4fffe419cd91");
     background-size:490px;
     background-repeat: no-repeat;
     background-position-x: right;
