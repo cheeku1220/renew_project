@@ -79,7 +79,8 @@ img{
 .row:nth-of-type(1){
     border-top: 0;
 /*     background-image: url("./Screenshot 2024-02-11 at 11.06.13 AM.png"); */
-    background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/9f225560-3ffc-4077-ab00-5c7da5787c70");
+/*     background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/9f225560-3ffc-4077-ab00-5c7da5787c70"); */
+    background-image:url("https://github.com/cheeku1220/renew_project/issues/1#issue-2132394272")
     background-size:450px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -97,7 +98,8 @@ img{
 
 .row:nth-of-type(2){
 /*     background-image:url("./Screenshot 2024-02-11 at 11.13.21 AM.png"); */
-    background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/fd0f5f6c-28cc-4271-961b-80393a894b2b");
+/*     background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/fd0f5f6c-28cc-4271-961b-80393a894b2b"); */
+    background-image:url("https://github.com/cheeku1220/renew_project/issues/2#issue-2132397568")
     background-size:490px;
     background-repeat: no-repeat;
     background-position-x: right;
