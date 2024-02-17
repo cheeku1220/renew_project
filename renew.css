@@ -78,7 +78,7 @@ img{
 
 .row:nth-of-type(1){
     border-top: 0;
-    background-image: url("firstImg.png");
+/*     background-image: url("firstImg.png"); */
     background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/dcecf0c2-62f9-47b1-bd61-96f80546cc6f");
     background-size:450px;
     background-repeat: no-repeat;
