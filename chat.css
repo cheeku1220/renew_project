@@ -1,0 +1,94 @@
+section{
+    display: flex;
+    z-index:1;
+    background-color:aliceblue;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/846/306/original/student-with-laptop-sitting-online-education-concept-remote-studying-concept-png.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.one{
+    height:770px;
+    width:60px;
+    /* background-color:gainsboro; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.one div{
+    background-color: aliceblue;
+}
+.one div:hover{
+    cursor: pointer;
+    background-color:greenyellow;
+}
+.one img{
+    border: 2px solid red;
+}
+.one img:hover{
+    cursor: pointer;
+    border-color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+.two{
+    /* position:relative; */
+    display: flex;
+    padding: 2px;
+    /* padding:20px; */
+    flex:1;
+    /* margin-left:250px; */
+    border:3px solid black;
+    height:20px;
+    margin-top: 740px;
+    margin-left: 10px;
+    justify-content: space-between;
+    /* z-index:1; */
+    background-color: darkgrey;
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/008/846/306/original/student-with-laptop-sitting-online-education-concept-remote-studying-concept-png.png); */
+}
+button:first-of-type{
+    background-color: yellow;
+    border-radius: 70%;
+}
+button:nth-of-type(2){
+    background-color:antiquewhite;
+}
+button:last-of-type{
+    background-color: greenyellow;
+}
+.mid{
+    /* padding:20px; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    /* height:760px; */
+    /* margin-left:50px; */
+    border:2px solid white;
+    z-index: 1;
+    border-top: 0;
+    border-bottom: 0 solid black;
+}
+button{
+    font-size: 15px;
+}
+button:nth-of-type(1){
+    justify-content: flex-start;
+}
+button:nth-of-type(2){
+    margin-left:920px;
+}
+.mid div{
+    border:2px solid black;
+    border-radius: 2%;
+    padding: 36.5px;
+    display: flex;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg);
+}
+.mid div span{
+    margin-left: 80px;
+}
