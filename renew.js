@@ -59,7 +59,7 @@ function check_log() {
             document.getElementById("login").style.display = "none";
             document.getElementById("log").style.display = "none";
             document.getElementById("sign").style.display = "none";
-        }, 1000)
+        }, 2000)
         document.getElementById("tail").setAttribute("href", "tailfolder.html");
         document.getElementById("chats").setAttribute("href", "chat.html"); 
     }
@@ -95,5 +95,5 @@ function check_sig() {
     setTimeout(() => {
         document.getElementById("signup").style.display = "none";
         document.getElementById("sign").style.display = "none";  
-    },1000)
+    },2000)
 }
