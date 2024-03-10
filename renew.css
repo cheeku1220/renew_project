@@ -1,4 +1,4 @@
-#cross,#cross2{
+#cross1,#cross2{
     margin-left: 450px;
     font-size: 25px;
 }
@@ -8,26 +8,43 @@
 }
 #login{
     border: 2px solid black;
-    border-radius: 5%;
-    margin:150px 100px 150px 450px;
+    width: 100%; 
+    height: 100%;
     display: none;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    background-color: rgb(0,0,0,0.5);
+}
+#con{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: auto;
+    margin-top:100px;
+    position: fixedx;
+    top:500px;
     width:500px;
     height:500px;
-    position: fixed;
-    /* z-index: 1; */
-    top:0;
     background:linear-gradient(hsl(180, 43%, 62%), hwb(195 89% 9%) 50%, #eee 75%, #000000 75%);
 }
 #signup{
     border: 2px solid black;
-    border-radius: 5%;
-    margin:150px 100px 150px 450px;
+    width: 100%; 
+    height: 100%;
     display: none;
-    width:500px;
-    height:500px;
     position: fixed;
     z-index: 1;
     top:0;
+    background-color: rgb(0,0,0,0.5);
+}
+#siu{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: auto;
+    margin-top:100px;
+    top:500px;
+    width:500px;
+    height:500px;
     background:linear-gradient(hsl(180, 43%, 62%), hwb(195 89% 9%) 50%, #eee 75%, #000000 75%);
 }
 #ip1,#ip2{
@@ -41,18 +58,16 @@
     /* text-decoration: none; */
     cursor: pointer;
 }
-#tit{
+
+.tit{
     margin-top: 30px;
 }
-a:hover{
-    text-decoration: underline;
-}
 #log{
-    margin-right:2px;
+    margin-right:5px;
 }
-#ip1 label,#ip2 label{
-    text-align: left;
-}
+/* #ip1 label,#ip2 label{ */
+    /* text-align: left; */
+/* } */
 .two{
     height:1800px;
     /* background-color:aliceblue; */
@@ -78,8 +93,8 @@ img{
 
 .row:nth-of-type(1){
     border-top: 0;
-/*     background-image: url("firstImg.png"); */
-    background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/dcecf0c2-62f9-47b1-bd61-96f80546cc6f");
+    background-image: url("./Screenshot 2024-02-11 at 11.06.13 AM.png");
+    /* background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/9f225560-3ffc-4077-ab00-5c7da5787c70"); */
     background-size:450px;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -96,8 +111,8 @@ img{
 }
 
 .row:nth-of-type(2){
-/*     background-image: url("secImg.png"); */
-    background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/1e647cf1-9c2d-438e-82b1-4fffe419cd91");
+    background-image: url("./Screenshot 2024-02-11 at 11.13.21 AM.png");
+    /* background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/fd0f5f6c-28cc-4271-961b-80393a894b2b"); */
     background-size:490px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -166,4 +181,27 @@ li a{
 li a:hover{
     color:black;
     text-decoration: 2px solid underline cornflowerblue;
+}
+input[type="email"],input[type="password"]{
+    border: 2px solid black;
+    box-shadow:-3px 3px 2px gray;
+}
+
+.alert{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: none;
+    border:2px solid black;
+}
+#cross{
+    float: right;
+}
+#cross:hover{
+    cursor: pointer;
+    font-size: large;
+    color: #000000;
+}
+#disp,#disps{
+    color: aliceblue;
 }
