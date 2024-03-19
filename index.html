@@ -39,8 +39,11 @@
       </nav>
 
       <!--INVALID MOMENT-->
-      <div class="alert alert-danger" id="alert"><span id="cross">&times;</span>
+      <div class="alert alert-danger" id="alert"><!--<span id="cross">&times;</span>-->
         Invalid login credentials!! The reason might be incorrect entering or not having an account!
+      </div>
+      <div class="alert alert-danger" id="alerts"><!--<span id="cros">&times;</span>-->
+        Invalid SignUp credentials!! The reason might be incorrect entering or not having a registered account!
       </div>
       <!---->
 
@@ -65,6 +68,7 @@
       </div>
       <!-- -->
       <!--LOGIN AND SIGN UP-->
+      <form>
       <div id="login">
         <div id="con">
           <div style="text-align:center;">
@@ -76,18 +80,19 @@
           <div id="hid">
             <div id="ip1">
               <label for="email">Email</label><br>
-              <input type="email" id="email" placeholder="xxxxxxxy@gitam.in" required pattern="[a-zA-Z]{7}[1-9]@gitam.in">
+              <input type="email" id="email" placeholder="xxxxxxxy@gitam.in" required pattern="[a-z]{7}[1-9]@gitam.in">
             </div>
             <div id="ip2">
               <label for="password">Password</label><br>
               <input type="password" id="password" placeholder="password" required>
             </div>
-            <button type="submit" id="sub" class="btn btn-outline-success" style="margin-top: 40px;" onclick="check_log()">Submit</button><br><br>
+            <button type="submit" id="sub" class="btn btn-outline-success" style="margin-top: 50px;" onclick="check_log()">Submit</button><br><br>
             <p id="disps"></p>
           </div>
         </div>
       </div>
-      
+      </form>
+      <form>
       <div id="signup">
         <div id="siu">
           <div style="text-align:center;">
@@ -99,7 +104,7 @@
           <div id="hidi">
             <div id="ip3">
               <label for="emails">Email</label><br>
-              <input type="email" id="emails" placeholder="xxxxxxxy@gitam.in" required pattern="[a-zA-Z]{7}[1-9]@gitam.in">
+              <input type="email" id="emails" placeholder="xxxxxxxy@gitam.in" required pattern="[a-z]{7}[1-9]@gitam.in">
             </div>
             <div id="ip4">
               <label for="passwords">Create Password</label><br>
@@ -114,7 +119,7 @@
           </div>
         </div>
       </div>
-      
+      </form>
       <!-- -->
 
       <footer>
