@@ -24,5 +24,5 @@ function exit() {
     f.style.border = "2px solid black";
     f.style.borderRadius = "50%";
     let a = document.getElementById("yesa");
-    a.setAttribute("href", "renew.html");
+    a.setAttribute("href", "index.html");
 }
