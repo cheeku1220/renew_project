@@ -23,7 +23,6 @@ function exit() {
     let f = document.getElementById("yes");
     f.style.border = "2px solid black";
     f.style.borderRadius = "50%";
-    f.innerHTML = "🫡";
-    let a=document.getElementById("yesa");
-    a.setAttribute("href", "https://www.google.com");
+    let a = document.getElementById("yesa");
+    a.setAttribute("href", "renew.html");
 }
