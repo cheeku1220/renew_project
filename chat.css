@@ -1,94 +1,216 @@
-section{
-    display: flex;
-    z-index:1;
-    background-color:aliceblue;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/008/846/306/original/student-with-laptop-sitting-online-education-concept-remote-studying-concept-png.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+#cross1,#cross2{
+    margin-left: 450px;
+    font-size: 25px;
 }
-.one{
-    height:770px;
-    width:60px;
-    /* background-color:gainsboro; */
-    background-color: black;
-    display: flex;
-    flex-direction: column;
+#hid,#hidi{
+    text-align: center;
+    padding: 25px;
 }
-.one div{
-    background-color: aliceblue;
+#login{
+    border: 2px solid black;
+    width: 100%; 
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    background-color: rgb(0,0,0,0.5);
 }
-.one div:hover{
+#con{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: auto;
+    margin-top:100px;
+    position: fixedx;
+    top:500px;
+    width:500px;
+    height:500px;
+    background:linear-gradient(hsl(180, 43%, 62%), hwb(195 89% 9%) 50%, #eee 75%, #000000 75%);
+}
+#signup{
+    border: 2px solid black;
+    width: 100%; 
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    background-color: rgb(0,0,0,0.5);
+}
+#siu{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: auto;
+    margin-top:100px;
+    top:500px;
+    width:500px;
+    height:500px;
+    background:linear-gradient(hsl(180, 43%, 62%), hwb(195 89% 9%) 50%, #eee 75%, #000000 75%);
+}
+#ip1,#ip2{
+    margin-top:40px;
+}
+#ip3,#ip4,#ip5{
+    margin-top: 10px;
+}
+.close:hover,.close2:hover {
+    color:red;
+    /* text-decoration: none; */
     cursor: pointer;
-    background-color:greenyellow;
-}
-.one img{
-    border: 2px solid red;
-}
-.one img:hover{
-    cursor: pointer;
-    border-color: blue;
-}
-a{
-    text-decoration: none;
 }
 
+.tit{
+    margin-top: 30px;
+}
+#log{
+    margin-right:5px;
+}
+/* #ip1 label,#ip2 label{ */
+    /* text-align: left; */
+/* } */
 .two{
-    /* position:relative; */
-    display: flex;
-    padding: 2px;
-    /* padding:20px; */
-    flex:1;
-    /* margin-left:250px; */
-    border:3px solid black;
-    height:20px;
-    margin-top: 740px;
-    margin-left: 10px;
-    justify-content: space-between;
-    /* z-index:1; */
-    background-color: darkgrey;
-    /* background-image: url(https://static.vecteezy.com/system/resources/previews/008/846/306/original/student-with-laptop-sitting-online-education-concept-remote-studying-concept-png.png); */
+    height:1800px;
+    /* background-color:aliceblue; */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
 }
-button:first-of-type{
-    background-color: yellow;
-    border-radius: 70%;
+.row{
+    height:500px;
+    border:2px solid darkgrey;
+    background-color:azure;
 }
-button:nth-of-type(2){
-    background-color:antiquewhite;
+img{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    transition:all 1s;
 }
-button:last-of-type{
-    background-color: greenyellow;
+.row div img:hover{
+    transform:translate(30px,-30px);
+    box-shadow:0.3em 0.3em 1em hsla(0, 0%, 13%, 0.6);
 }
-.mid{
-    /* padding:20px; */
-    /* position: relative; */
-    display: flex;
-    flex-direction: column;
-    width:300px;
-    /* height:760px; */
-    /* margin-left:50px; */
-    border:2px solid white;
-    z-index: 1;
+
+.row:nth-of-type(1){
     border-top: 0;
-    border-bottom: 0 solid black;
+    background-image: url("./Screenshot 2024-02-11 at 11.06.13 AM.png");
+    /* background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/9f225560-3ffc-4077-ab00-5c7da5787c70"); */
+    background-size:450px;
+    background-repeat: no-repeat;
+    background-position-x: left;
 }
-button{
-    font-size: 15px;
+.row:nth-of-type(1) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 600px;
 }
-button:nth-of-type(1){
-    justify-content: flex-start;
+.row:nth-of-type(1) img{
+    margin-top: 150px;
+    margin-left: 650px;
 }
-button:nth-of-type(2){
-    margin-left:920px;
+
+.row:nth-of-type(2){
+    background-image: url("./Screenshot 2024-02-11 at 11.13.21 AM.png");
+    /* background-image: url("https://github.com/cheeku1220/renew_project/assets/80578881/fd0f5f6c-28cc-4271-961b-80393a894b2b"); */
+    background-size:490px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
-.mid div{
+.row:nth-of-type(2) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.row:nth-of-type(2) img{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.row:nth-of-type(3){
+    background-image: url("https://img.freepik.com/premium-vector/bearded-adult-man-taking-selfie-cartoon-illustration-male-person-having-video-call-ready-use-character-template-commercial-animation-printing-comic-hero_151150-2298.jpg");
+    background-size:450px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+.row:nth-of-type(3) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.row:nth-of-type(3) img{
+    margin-top: 150px;
+    margin-left: 650px;
+}
+.row:nth-of-type(4){
+    border-bottom: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/347/249/original/verification-success-illustration-flat-design-vector.jpg");
+    background-size:450px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.row:nth-of-type(4) .col-4{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.row:nth-of-type(4) img{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#fot{
+    height:500px;
+    border:2px solid aliceblue;
+    background:linear-gradient(0.5turn, hsl(198, 55%, 79%), hsl(189, 42%, 59%), hsl(178, 72%, 43%));
+}
+.col-3{
+    width:300px;
+    margin-left: 50px;
+}
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    list-style-type: none;
+}
+li a{
+    color:indigo;
+    text-decoration: none;
+}
+li a:hover{
+    color:black;
+    text-decoration: 2px solid underline cornflowerblue;
+}
+input[type="email"],input[type="password"]{
+    border: 2px solid black;
+    /* box-shadow:-3px 3px 2px gray; */
+}
+
+.alert{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: none;
     border:2px solid black;
-    border-radius: 2%;
-    padding: 36.5px;
-    display: flex;
-    color:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(https://img.freepik.com/premium-vector/dark-stripes-background-elegant-design-wallpapers_518299-1505.jpg);
 }
-.mid div span{
-    margin-left: 80px;
+/* #cross{ */
+    /* float: right; */
+/* } */
+/* #cross:hover{ */
+    /* cursor: pointer; */
+    /* font-size: large; */
+    /* color: #000000; */
+/* } */
+#disp,#disps{
+    color: aliceblue;
+}
+input:valid{
+    background-color:greenyellow;
+}
+input:invalid{
+    border: 3px solid red;
+}
+input:required:invalid{
+    border: 3px solid red;
 }
