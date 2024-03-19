@@ -59,7 +59,7 @@ function check_log() {
             document.getElementById("login").style.display = "none";
             document.getElementById("log").style.display = "none";
             document.getElementById("sign").style.display = "none";
-        }, 2000)
+        }, 1000)
         document.getElementById("tail").setAttribute("href", "tailfolder.html");
         document.getElementById("chats").setAttribute("href", "chat.html"); 
     }
@@ -67,10 +67,10 @@ function check_log() {
         var alert = document.getElementById("alert");
         alert.style.zIndex = 2;
         alert.style.display = "block";
-        var span = document.getElementById("cross");
-        span.onclick = function () {
-            alert.style.display = "none";
-        }  
+        // var span = document.getElementById("cross");
+        // span.onclick = function () {
+            // alert.style.display = "none";
+        // }  
         setTimeout(() => {
             alert.style.display = "none";
         },2000)
@@ -83,17 +83,28 @@ function check_sig() {
     mail.push(e)
     var f = document.getElementById("passwords").value;
     var g = document.getElementById("passwordss").value;
-    if (f == g) {
+    if (f == g && f && g) {
         pass[e] = f;
+        var g = document.getElementById("subs");
+        g.style.border = "2px solid black";
+        g.style.borderRadius = "50%";
+        g.innerHTML = "&check;";
+        document.getElementById("disp").innerText = "You've signed up as per Gitam database...now Login !!!";
+        setTimeout(() => {
+            document.getElementById("signup").style.display = "none";
+            document.getElementById("sign").style.display = "none";  
+        },1000)
     }
-
-    var g = document.getElementById("subs");
-    g.style.border = "2px solid black";
-    g.style.borderRadius = "50%";
-    g.innerHTML = "&check;";
-    document.getElementById("disp").innerText = "You've signed up as per Gitam database...now Login !!!";
-    setTimeout(() => {
-        document.getElementById("signup").style.display = "none";
-        document.getElementById("sign").style.display = "none";  
-    },2000)
+    else {
+        var alert = document.getElementById("alerts");
+        alert.style.zIndex = 2;
+        alert.style.display = "block";
+        // var span = document.getElementById("cros");
+        // span.onclick = function () {
+            // alert.style.display = "none";
+        // }  
+        setTimeout(() => {
+            alert.style.display = "none";
+        },2000)
+    }
 }
