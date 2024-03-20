@@ -5,7 +5,7 @@
     border:2px solid black;
     height:800px;
     width:3%;
-    background-color: rgba(0,0,0,0.7);
+    background-color:rgba(0,0,0,0.9);
 }
 #a1,#a2{
     width:38px;
@@ -38,6 +38,9 @@
     justify-content: space-between;
     align-items: end;
     width: 80%;
+    background-image: url("threebg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* #below{ */
     /* align-self: flex-end; */
@@ -61,7 +64,7 @@ section{
 }
 #add{
     font-size: 30px;
-    color:rgb(255, 255, 255);
+    color:rgba(0,0,0,1);
     margin-right: 7px;
     margin-left: 5px;
     margin-bottom: 3px;
@@ -210,4 +213,5 @@ h2{
     position: relative;
     top:-100px;
     left:10px;
+    background-color:aliceblue;
 }
