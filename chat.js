@@ -35,7 +35,7 @@ function closeops() {
     document.getElementById("add").style.transform = "";
 }
 function backhome() {
-    document.getElementById("back").setAttribute("href", "renew.html");
+    document.getElementById("back").setAttribute("href", "index.html");
     document.getElementById("log").style.display = "none";
     document.getElementById("sign").style.display = "none";
 }
