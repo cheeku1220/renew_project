@@ -10,14 +10,14 @@
 <body>
     <section>
         <div id="one">
-            <a href="renew.html"><img id="a1" src="homie.png"></a>
+            <a href="#" id="back" onclick="backhome()"><img id="a1" src="homie.png"></a>
             <img id="a2" src="chatz.png">
             <img id="a3" onclick="choice()" src="https://cdn-icons-png.flaticon.com/256/4083/4083031.png">
         </div>
         <div id="two">
             <h1>Chats</h1>
             <div id="top">
-                <input type="search" id="inp" placeholder="contact"><button onclick="glow()">Search</button>
+                <input type="search" id="inp" placeholder="contact"><button onclick="glow()">SUBMIT</button>
             </div>
             <div class="cont" id="dad">
                 <img src="https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg">
@@ -33,10 +33,14 @@
             </div>
         </div>
         <div id="three">
-            <span id="add">&plus;</span>
+            <span id="add" onmouseover="giveops()">&plus;</span>
+                <select id="opts" onmouseleave="closeops()">
+                    <option>📂 File</option>
+                    <option>📸 Photos and Videos</option>
+                </select>
             <div id="typ">
                 <form action="#">
-                    <input type="text">
+                    <input type="text" id="caret" placeholder=" __" onclick="styl()">
                 </form>
             </div>
             <span id="spk"><img src="https://static.xx.fbcdn.net/assets/?revision=25415112264746748&name=kaios-blue-microphone&density=1"></span>
