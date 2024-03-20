@@ -1,4 +1,3 @@
-// let d = document.getElementById("no").value;
 function glow() {
     let d = document.getElementById("inp").value.toLowerCase();
     if (d) {
@@ -20,9 +19,28 @@ function back() {
     g.style.display = "none";
 }
 function exit() {
-    let f = document.getElementById("yes");
-    f.style.border = "2px solid black";
-    f.style.borderRadius = "50%";
     let a = document.getElementById("yesa");
-    a.setAttribute("href", "index.html");
+    a.setAttribute("href", "renew.html");
+}
+function giveops() {
+    setTimeout(() => {
+        document.getElementById("opts").style.display = "block";  
+    },1000)
+    document.getElementById("add").style.cursor = "pointer";
+    document.getElementById("add").style.transform = "rotate(45deg)";
+    document.getElementById("add").style.transition = "1s";
+}
+function closeops() {
+    document.getElementById("opts").style.display = "none";
+    document.getElementById("add").style.transform = "";
+}
+function backhome() {
+    document.getElementById("back").setAttribute("href", "renew.html");
+    document.getElementById("log").style.display = "none";
+    document.getElementById("sign").style.display = "none";
+}
+function styl() {
+    let r=document.getElementById("caret");
+    // r.style.color = "blueviolet";
+    r.setAttribute("placeholder","");
 }
