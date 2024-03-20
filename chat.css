@@ -217,3 +217,9 @@ h2{
     font-size: large;
     margin-left: 35px;
 }
+#opts{
+    display: none;
+    position: relative;
+    top:-100px;
+    left:10px;
+}
