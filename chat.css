@@ -34,13 +34,16 @@
     border:2px solid black;
     height:800px;
     /* flex-grow: 1; */
-    background-color: rgba(0,0,0,1);
     justify-content: space-between;
     align-items: end;
     width: 80%;
-    background-image: url("threebg.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url("threebg.jpeg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background:  center /contain no-repeat url("threebg.jpeg"),rgba(71, 69, 69, 0.7) 35%; */
+    /* background-color: rgba(195, 194, 194, 0.1); */
+    background: linear-gradient(to right, #33333389,#99999942), url("threebg.jpeg");
+
 }
 /* #below{ */
     /* align-self: flex-end; */
@@ -214,4 +217,20 @@ h2{
     top:-100px;
     left:10px;
     background-color:aliceblue;
+}
+.chat-input-form{
+    /* background: red; */
+    position: relative;
+}
+.chat-input-form input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#F3F3F3;
+}
+.chat-input-form span{
+    position: absolute;
+    right: 15px;
+    top:22.5%;
+    color: white;
+    padding-left: 50px;
 }
