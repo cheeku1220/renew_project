@@ -34,11 +34,11 @@ function closeops() {
     document.getElementById("opts").style.display = "none";
     document.getElementById("add").style.transform = "";
 }
-function backhome() {
-    document.getElementById("back").setAttribute("href", "renew.html");
-    document.getElementById("log").style.display = "none";
-    document.getElementById("sign").style.display = "none";
-}
+// function backhome() {
+//     document.getElementById("back").setAttribute("href", "renew.html");
+//     document.getElementById("log").style.display = "none";
+//     document.getElementById("sign").style.display = "none";
+// }
 function styl() {
     let r=document.getElementById("caret");
     // r.style.color = "blueviolet";
